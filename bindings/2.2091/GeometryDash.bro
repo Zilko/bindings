@@ -19610,7 +19610,7 @@ class PointNode : cocos2d::CCObject {
     PointNode() = inline;
     virtual ~PointNode() = win 0x87770, ios 0xc4b8;
 
-    static PointNode* create(cocos2d::CCPoint point) = win inline, imac 0x65050, m1 0x5dde8;
+    static PointNode* create(cocos2d::CCPoint point) = win inline, imac 0x65050, m1 0x5dde8, ios inline;
 
     bool init(cocos2d::CCPoint point) = win inline, imac 0x65480, m1 0x5e224, ios inline;
 

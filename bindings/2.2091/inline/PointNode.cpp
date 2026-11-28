@@ -10,7 +10,7 @@ bool PointNode::init(cocos2d::CCPoint point) {
 }
 #endif
 
-#if defined(GEODE_IS_WINDOWS)
+#if defined(GEODE_IS_WINDOWS) || defined(GEODE_IS_IOS)
 PointNode* PointNode::create(cocos2d::CCPoint point) {
     auto ret = new PointNode();
     if (ret->init(point)) {
